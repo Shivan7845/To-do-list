@@ -1,0 +1,11 @@
+<%- include("partials/header") %>
+<%- include("partials/nav") %>
+<form class="w-25 mt-5 m-auto" action="/add" method="post">
+  <h1>Add-Task</h1>
+<input class="form-control mb-3" type="text" name="task_no" placeholder="task_no" id="">
+<input class="form-control mb-3" type="date" name="date" >
+<textarea class="form-control mb-3" name="work" placeholder="Write your task here."></textarea>
+<button class="btn btn-primary">Add</button>
+</form>
+ 
+<%- include("partials/footer") %>
